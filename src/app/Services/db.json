@@ -1,0 +1,90 @@
+{
+  "seller": [
+    {
+      "name": "241353_Divyashree Natesh",
+      "password": "Dvs@123",
+      "email": "241353@ust.com",
+      "id": 1
+    },
+    {
+      "name": "Teju",
+      "password": "1234",
+      "email": "teju@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Teju",
+      "password": "1234",
+      "email": "teju@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Teju",
+      "password": "1234",
+      "email": "teju@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Teju",
+      "password": "12345",
+      "email": "teju@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "adarsh",
+      "password": "1234",
+      "email": "ad@gmail.com",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Divyashree N",
+      "email": "aishwaryar1404@gmail.com",
+      "password": "Dvs!234",
+      "id": 1
+    },
+    {
+      "name": "Divyashree N",
+      "email": "1234",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "Divyashree N",
+      "email": "1234",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Divyashree N",
+      "email": "1234",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "Aishwaryaa",
+      "email": "aish@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "Divyashree N",
+      "email": "aish@gmail.com",
+      "password": "1234556",
+      "id": 6
+    },
+    {
+      "name": "Divyashree N",
+      "email": "aish@gmail.com",
+      "password": "Asd@123",
+      "id": 7
+    },
+    {
+      "name": "adarsh",
+      "email": "ad@gmail.com",
+      "password": "1234",
+      "id": 8
+    }
+  ]
+}

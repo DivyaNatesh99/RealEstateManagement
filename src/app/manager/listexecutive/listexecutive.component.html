@@ -1,0 +1,39 @@
+<app-manager></app-manager>
+
+<div class="container">
+    <h2 class="text-center">Executive List</h2>
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Executive Name</th>
+                <th>Contact Number</th>
+                <th>Locality</th>
+                <th>Email</th>
+               
+
+                   
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let e of exe" >
+                <td> {{ e.eName }} </td>
+                <td> {{ e.eCNumber }} </td>
+                <td> {{ e.eLocality }} </td>
+                <td> {{ e.eEmail}}</td>
+               
+
+                
+                <!-- <td>
+                    <button (click) = "update(e.id)" class="btn btn-primary">Edit</button>
+                </td>
+                <td>
+                    <button (click) = "delete(e.id)" class="btn btn-danger">Delete</button>
+                </td> -->
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+

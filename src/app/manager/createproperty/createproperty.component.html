@@ -1,0 +1,33 @@
+<app-manager></app-manager>
+
+<div class="container">
+    <h2 class="text-center">Create Executive Data</h2>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="pId"> Property Id </label>
+            <input type="text" class="form-control" id="pId" [(ngModel)]="pro.pId" name="pId">
+        </div>
+        <div class="form-group">
+            <label for="eCNumber"> Property Name </label>
+            <input type="text" class="form-control" id="pList" [(ngModel)]="pro.pList" name="pList">
+        </div>
+        <div class="form-group">
+            <label for="pType"> Property Type</label>
+            <input type="text" class="form-control" id="pType" [(ngModel)]="pro.pType" name="pType">
+        </div>
+
+        <div class="form-group">
+            <label for="pLocality"> Locality</label>
+            <input type="text" class="form-control" id="pLocality" [(ngModel)]="pro.pLocality" name="pLocality">
+        </div>
+
+        <div class="form-group">
+            <label for="pBudget"> Budget </label>
+            <input type="text" class="form-control" id="pBudget" [(ngModel)]="pro.pBudget" name="pBudget">
+        </div>
+
+        <button class="btn btn-success mt-2" type="submit">Submit</button>
+    </form>
+</div>
+
+

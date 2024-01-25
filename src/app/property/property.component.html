@@ -1,0 +1,31 @@
+<div class="container">
+    <h2 class="text-center">Employee List</h2>
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Property List Name</th>
+                <th>Property Type</th>
+                <th>Location</th>
+                <th>Budget</th>            
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of pro">
+                <td> {{ p.pId }} </td>
+                <td> {{ p.pList }} </td>
+                <td> {{ p.pType}} </td>
+                <td> {{ p.pLocality}}</td>
+                <td> {{ p.pBudget }} </td>
+            
+                
+                <td>
+                    <button  class="btn btn-primary">Edit</button>
+                </td>
+                <td>
+                    <button  class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

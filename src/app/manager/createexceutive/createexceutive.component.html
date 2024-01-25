@@ -1,0 +1,26 @@
+<app-manager></app-manager>
+<div class="container">
+    <h2 class="text-center">Create Executive Data</h2>
+    <form (ngSubmit)="onsubmit()">
+        <div class="form-group">
+            <label for="cId"> Executive Name </label>
+            <input type="text" class="form-control" id="eName" [(ngModel)]="exe.eName" name="eName">
+        </div>
+        <div class="form-group">
+            <label for="eCNumber"> Contact Number </label>
+            <input type="text" class="form-control" id="cName" [(ngModel)]="exe.eCNumber" name="eCNumber">
+        </div>
+        <div class="form-group">
+            <label for="eLocality"> Locality</label>
+            <input type="text" class="form-control" id="eLocality" [(ngModel)]="exe.eLocality" name="eLocality">
+        </div>
+
+        <div class="form-group">
+            <label for="eEmail"> Email </label>
+            <input type="text" class="form-control" id="eEmail" [(ngModel)]="exe.eEmail" name="eEmail">
+        </div>
+
+        <button class="btn btn-success mt-2" type="submit">Submit</button>
+    </form>
+</div>
+

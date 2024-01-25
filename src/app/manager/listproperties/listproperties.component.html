@@ -1,0 +1,37 @@
+<app-manager></app-manager>
+<div class="container">
+    <h2 class="text-center">Property List</h2>
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Property Id</th>
+                <th>Property List</th>
+                <th>Property Type</th>
+                <th>Property Locality</th>
+                <th>Property Budget</th>
+
+                   
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of pro" >
+                <td> {{ p.pId }} </td>
+                <td> {{ p.pList }} </td>
+                <td> {{ p.pType }} </td>
+                <td> {{ p.pLocality}}</td>
+                <td> {{ p.pBudget }} </td>
+
+                
+                <!-- <td>
+                    <button (click) = "update(e.id)" class="btn btn-primary">Edit</button>
+                </td>
+                <td>
+                    <button (click) = "delete(e.id)" class="btn btn-danger">Delete</button>
+                </td> -->
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
