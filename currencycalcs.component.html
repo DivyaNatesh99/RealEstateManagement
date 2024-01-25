@@ -1,0 +1,108 @@
+<!-- <div class="card text-center">
+    <div class="card-header">
+        Currency Calculator
+    </div>
+    <div class="card-body">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Add-currencyCalculator
+        </button>
+    </div>
+</div> -->
+<div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="https://bosstradie.com.au/wp-content/uploads/2021/01/shutterstock_1655101363-1536x1025.jpg " alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Currency Calculator</h3>
+        <p class="card-text">Currency calculators are useful in a variety of situations, such as when traveling to a foreign country, making international purchases, 
+            or sending money to another country.</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click Here to Calculate
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Retirement Calculator </h3>
+        <p class="card-text">A retirement calculator is a tool used to estimate how much money an individual needs to save for retirement. It takes into account various factors such as current age, retirement age, income, savings, and expenses to provide an estimate of how much money the individual will
+             need to maintain their standard of living after retirement.</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click Here to Calculate
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://tse2.mm.bing.net/th/id/OIP.QFLyIGXdo07peQG3z_74pQHaHa?pid=ImgDet&rs=1" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Percentage Calculator </h3>
+        <p class="card-text">A percentage calculator is a tool used to calculate percentages, including percentage increase or decrease, percentage of a number, and percentage change. It is a simple and easy-to-use tool that allows individuals to 
+            quickly and accurately calculate percentages for a variety of purposes.</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Click Here to Calculate
+        </button>
+      </div>
+    </div>
+  </div>
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Add-currencyCalculator
+</button> -->
+
+<div class="modal fade bd-example-modal-lg mt-5 mb-4" id="exampleModal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add currencyCalculator</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for=" id" class="form-label">Id</label>
+                        <input type="number" name="id" class="form-control" [(ngModel)]="currencyCalculator.id" id="id">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for=" fromCurrency" class="form-label">Base Currency</label>
+                        <input type="text" name="fromCurrency" class="form-control"
+                            [(ngModel)]="currencyCalculator.fromCurrency" id="fromCurrency">
+                    </div>
+                    <div class="mb-3">
+                        <label for="toCurrency" class="form-label">Converted to</label>
+                        <input type="text" name="toCurrency" class="form-control"
+                            [(ngModel)]="currencyCalculator.toCurrency" id="toCurrency">
+                    </div>
+                    <div class="mb-3">
+                        <label for="excRate" class="form-label">Amount to be Converted</label>
+                        <input type="number" name="excRate" class="form-control"
+                            [(ngModel)]="currencyCalculator.excRate" id="excRate">
+                    </div>
+
+
+
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" (click)="onSubmit()" class="btn btn-primary">Add</button>
+                </div>
+
+                <div class="card" *ngIf="currencyCalculator">
+                    <div class="card-body">
+                        <table>
+                            <tr>
+                                <td class="td">Converted Amount:</td>
+                                <td>{{ currencyCalculator.convertedAmount}}</td>
+                                <br>
+                            </tr>
+                        </table>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

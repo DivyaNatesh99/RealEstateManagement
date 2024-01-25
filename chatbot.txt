@@ -1,0 +1,67 @@
+
+1) What do you mean by a chat bot.
+
+A chatbot is an artificial intelligence program designed to simulate conversation with human users,
+typically through text-based interfaces such as messaging apps or websites.
+Chatbots can be programmed to provide information, answer questions, perform tasks, or even engage in casual conversation.
+
+2)How it is different from the normal chatting application? 
+
+* The main difference between a chatbot and a normal chatting application,
+  is that a chatbot is an automated program that uses natural language processing and machine learning
+ to understand and respond to user inputs. In contrast, a normal chatting application relies on human-to-human communication,
+ with each participant actively engaging in the conversation.
+
+*Another key difference is that chatbots are often designed to perform specific tasks or functions,
+ such as customer service or scheduling appointments,
+ whereas normal chatting applications are typically more open-ended and geared towards social interaction.
+
+Overall, chatbots offer a convenient and efficient way to automate certain tasks and provide information to users, 
+while normal chatting applications are better suited for socializing and communicating with friends and family.
+
+3)How you will integrate this chat bot with the existing web apps or the mobile app?
+
+* Integrating a chatbot with an existing web or mobile app involves several steps, including:
+Choose a chatbot platform: There are various chatbot development platforms available that allow developers to build and deploy chatbots quickly and easily.
+Some popular options include Dialogflow, Botpress, and Microsoft Bot Framework.
+
+*Define the use case: Determine the specific use case for the chatbot,
+ such as customer service, appointment scheduling, or product recommendations. 
+This will help guide the development process and ensure that the chatbot is designed to meet the needs of your users.
+
+*Design the chatbot interface: Design the chatbot's interface to match the existing look and feel of your web or mobile app. 
+This may involve creating custom chatbot templates or using existing chatbot UI components.
+
+*Integrate the chatbot with your app: This involves integrating the chatbot's API with your app's backend.
+ Most chatbot platforms provide API documentation and developer tools to make this process as straightforward as possible.
+
+*Test and iterate: Test the chatbot thoroughly to ensure that it functions as expected and provides a positive user experience.
+ Make any necessary adjustments based on user feedback or performance metrics.
+
+*Overall, integrating a chatbot with an existing web or mobile app can provide a range of benefits, including increased user engagement,
+improved customer service, and streamlined workflows.
+
+4)
+
+Programming languages: Chatbots can be built using a variety of programming languages, including Python, Java, JavaScript, C#, and more.
+ Python is a popular choice for chatbot development due to its simplicity and extensive library support.
+
+Natural Language Processing (NLP) and Machine Learning (ML): NLP and ML are critical components of chatbot development, 
+as they enable chatbots to understand user inputs and respond in a human-like manner.
+ Some popular NLP and ML frameworks for chatbot development include spaCy, NLTK, TensorFlow, and Keras.
+
+Chatbot development platforms: There are various chatbot development platforms available that provide tools and resources
+ to build and deploy chatbots quickly and easily.
+ Some popular options include Dialogflow, Botpress, and Microsoft Bot Framework.
+
+APIs and integrations: Chatbots may need to integrate with other systems or APIs to perform specific tasks or functions,
+ such as booking appointments or retrieving information.
+ Understanding how to work with APIs and integrate them into your chatbot can be an important part of the development process.
+
+Hosting and deployment: Once the chatbot is developed, 
+it needs to be hosted and deployed to a web or mobile app.
+ Understanding how to deploy the chatbot to a cloud-based service such as AWS, Azure or Google Cloud can be important.
+
+User testing: User testing is an essential part of chatbot development.
+ It involves testing the chatbot with a variety of users and scenarios to ensure that it functions as expected and provides a positive user experience.
+
